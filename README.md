@@ -4,7 +4,7 @@ Aplicação criada para o [desafio desenvolvedor back-end](https://github.com/Ho
 #Sobre
 A aplicação foi desenvolvida usando [Spring Boot](https://spring.io/projects/spring-boot) na versão 2.3 junto a linguagem [Java](https://java.com/) em sua versão 1.8. O banco de dados usado foi [MySQL](https://www.mysql.com/).
 
-##Bibliotecas usadas
+#Bibliotecas usadas
 - [Spring boot](https://spring.io/projects/spring-boot) - facilitador de configuração e publicação
 - [Spring data](https://spring.io/projects/spring-data) - facilitador para banco de dados
 - [Spring boot dev tools](https://docs.spring.io/spring-boot/docs/1.5.16.RELEASE/reference/html/using-boot-devtools.html) - facilitador de desenvolvimento
@@ -21,7 +21,7 @@ A aplicação foi desenvolvida usando [Spring Boot](https://spring.io/projects/s
 - Todas as configurações, como banco de dados e URL da News API, se encontram no arquivo `application.properties`.
 - O *FlyAway* precisa do banco de dados previamente criado para executar os *scripts* de versionamento `create database hotmart_challenge;`. 
 - Na pasta raiz do projeto você pode usar os seguintes comandos:  
-1) `mvn clean install`: para compilar.  
+1) `mvnw clean install`: para compilar.  
 2) `mvnw spring-boot::run`: para disponibilzar a aplicação.  
 3) `mvnw test`: para executar os testes unitários.  
 4) `mvnw spring-boot:build-image`: para gerar a imagem [Docker](https://www.docker.com/) o [Spring Boot 2.3 oferece um facilitador](https://spring.io/guides/gs/spring-boot-docker/)  
